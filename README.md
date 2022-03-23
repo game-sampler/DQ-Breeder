@@ -16,6 +16,8 @@ https://pypi.org/project/openpyxl/
 
 pop_tree: Given a monster name and an optional location blacklist, prints a tree outlining the steps to breed it using scoutable monsters.
 
+tree_noscout: Given a monster name, calls pop_tree with the blacklist updated to contain the input monster's location.
+
 source: Given a monster name, shows where to obtain it. If it cannot be scouted, outputs a list of all scoutable monsters required to breed it.
 
 source_noscout: similar to source, but checks assuming the input monster name cannot be scouted
