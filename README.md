@@ -2,6 +2,7 @@
 Set of tools for visualizing and analyzing breed trees in Dragon Quest Monsters Joker 3 Professional
 
 **Requirements**
+
 Python 3.10
 
 DQMJ3 Pro Master's Guide
