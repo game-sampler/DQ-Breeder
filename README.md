@@ -12,7 +12,7 @@ Openpyxl Library
 
 https://pypi.org/project/openpyxl/
 
-**Utility Listing**
+## Utility Listing
 
 pop_tree: Given a monster name and an optional location blacklist, prints a tree outlining the steps to breed it using scoutable monsters.
 
@@ -30,7 +30,7 @@ find_breed_typos: Checks breed components against the list of monster names, rep
 
 repair: Attempts to auto fix some guide issues using difflib.
 
-**Functionality Statistics (Unmodified Guide, Tested 3/23/2022)**
+## Functionality Statistics (Unmodified Guide, Tested 3/23/2022)
 
 Without repair calls, noscout flag off: 522/722 monsters can be bred
 
