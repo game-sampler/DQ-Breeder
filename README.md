@@ -5,9 +5,11 @@ Set of tools for visualizing and analyzing breed trees in Dragon Quest Monsters 
 Python 3.10
 
 DQMJ3 Pro Master's Guide
+
 https://docs.google.com/spreadsheets/d/1oAOL4wj39wknnP2iIHIX3jBoVQ6iUERwiVBLu63sBxU/edit#gid=0
 
 Openpyxl Library
+
 https://pypi.org/project/openpyxl/
 
 **Utility Listing**
@@ -29,7 +31,11 @@ find_breed_typos: Checks breed components against the list of monster names, rep
 repair: Attempts to auto fix some guide issues using difflib.
 
 **Functionality Statistics (Unmodified Guide, Tested 3/23/2022)**
+
 Without repair calls, noscout flag off: 522/722 monsters can be bred
+
 Without repair calls, noscout flag on: 318/722 monsters can be bred
+
 With repair calls, noscout flag off: 719/722 monsters can be bred
+
 With repair calls, noscout flag on: 615/722 monsters can be bred
