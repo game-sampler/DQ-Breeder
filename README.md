@@ -13,6 +13,12 @@ Openpyxl Library
 
 https://pypi.org/project/openpyxl/
 
+#Instructions
+
+To use, download the Master's guide above as an xlsx file and rename it to "MasterGuide".
+
+Make sure the guide is in the same folder as the script before running it.
+
 ## Utility Listing
 
 pop_tree: Given a monster name and an optional location blacklist, prints a tree outlining the steps to breed it using scoutable monsters.
@@ -33,12 +39,12 @@ find_breed_typos: Checks breed components against the list of monster names, rep
 
 repair: Attempts to auto fix some guide issues using difflib.
 
-## Functionality Statistics (Unmodified Guide, Tested 3/23/2022)
+## Functionality Statistics (Unmodified Guide, Tested 9/20/2022)
 
-Without repair calls, noscout flag off: 522/722 monsters can be bred
+Without repair calls, noscout flag off: 543/722 monsters can be bred
 
-Without repair calls, noscout flag on: 318/722 monsters can be bred
+Without repair calls, noscout flag on: 342/722 monsters can be bred
 
 With repair calls, noscout flag off: 719/722 monsters can be bred
 
-With repair calls, noscout flag on: 615/722 monsters can be bred
+With repair calls, noscout flag on: 611/722 monsters can be bred
