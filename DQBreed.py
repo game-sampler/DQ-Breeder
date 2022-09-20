@@ -171,7 +171,8 @@ def repair():
         "zoma": "archfiend zoma",
         "psaro": "psaro the manslayer",
         "mortamor": "demonlord mortamor",
-        "liquid metal king slime": "liquid metal slime king"
+        "liquid metal king slime": "liquid metal slime king",
+        "genosidoh": "geno malroth"
     }
     #goes through each breed in list format, and if its not unbreedable or a tome monster, continues on and checks for errors against mon_lower
     for i in range(len(breed_lower)):
@@ -199,15 +200,13 @@ def repair():
                 except IndexError:
                     print(j)
     #some individual breed optimizations to prevent infinites and trim down some trees
-    breed_lower[53] = breed_lower[53].replace('zoma', 'archfiend zoma')
     breed_lower[273] = 'slime + dracky'
     breed_lower[274] = 'slime + slime'
-    breed_lower[141] = breed_lower[141].replace('rhapthorne', 'dark god rhapthorne')
     breed_lower[178] = 'metal slime + funky feta'
     breed_lower[157] = 'orc + suckling ocker'
     breed_lower[91] = 'ultraviolent ray + slime'
-    breed_lower[54] = 'egg-en-ciel + disasterking'
-    breed_lower[680] = breed_lower[680].replace('rhapthorne', 'dark god rhapthorne')
+    breed_lower[54] = 'egg-en-ciel + king of calamity'
+    breed_lower[680] = breed_lower[680].replace('boshock', 'break boshock')
     #fixes some errors from the auto replacer
     for i in range(len(breed_lower)):
         if breed_lower[i] not in [None, [None]]:
