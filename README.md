@@ -1,7 +1,7 @@
-# DQ-Breeder
+## DQ-Breeder
 Set of tools for visualizing and analyzing breed trees in Dragon Quest Monsters Joker 3 Professional
 
-**Requirements**
+# Requirements
 
 Python 3.10
 
@@ -19,7 +19,7 @@ To use, download the Master's guide above as an xlsx file and rename it to "Mast
 
 Make sure the guide is in the same folder as the script before running it.
 
-## Utility Listing
+# Utility Listing
 
 pop_tree: Given a monster name and an optional location blacklist, prints a tree outlining the steps to breed it using scoutable monsters.
 
@@ -39,7 +39,7 @@ find_breed_typos: Checks breed components against the list of monster names, rep
 
 repair: Attempts to auto fix some guide issues using difflib.
 
-## Functionality Statistics (Unmodified Guide, Tested 9/20/2022)
+# Functionality Statistics (Unmodified Guide, Tested 9/20/2022)
 
 Without repair calls, noscout flag off: 543/722 monsters can be bred
 
