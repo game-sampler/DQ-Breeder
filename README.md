@@ -1,5 +1,6 @@
 ## DQ-Breeder
-Set of tools for visualizing and analyzing breed trees in Dragon Quest Monsters Joker 3 Professional
+Set of tools for visualizing and analyzing breed trees in Dragon Quest Monsters Joker 3 Professional.
+A breed tree of monsters whose leaves can be combined in synthesis to produce the monster at the root. 
 
 # Requirements
 
